@@ -44,3 +44,10 @@ body {
     background: #4CAF50;
     cursor: pointer;
 }
+
+iframe#mindmap {
+    display: block;
+    width: 30%;
+    height: 200px;
+    margin: 0 auto;
+}

@@ -19,7 +19,7 @@ body {font-family: "Raleway", Arial, sans-serif}
   <!-- Header -->
   <header class="w3-container w3-xlarge w3-padding-24">
     <a href="#" class="w3-left w3-button w3-white">10 Lý nhóm 3</a>
-    <a href="#about" class="w3-right w3-button w3-white">Bấm nè</a>
+    <a href="#about" class="w3-right w3-button w3-white">Mind map</a>
   </header>
 
 
@@ -93,10 +93,24 @@ body {font-family: "Raleway", Arial, sans-serif}
 <body>
 
 <div class="slidecontainer">
-  <input type="range" min="0" max="37" value="0"oninput="showVal(this.value)" onchange="showVal(this.value)"class="slider" id="valR">
+  <input type="range" min="0" max="31" value="0" oninput="showVal(this.value) "onchange="showVal(this.value) "class="slider" id="valR">
     <span id="range">0</span>
     <p><img id = "img">
+<input type="range" list="tickmarks">
 
+<datalist id="tickmarks">
+  <option value="0"></option>
+  <option value="10"></option>
+  <option value="20"></option>
+  <option value="30"></option>
+  <option value="40"></option>
+  <option value="50"></option>
+  <option value="60"></option>
+  <option value="70"></option>
+  <option value="80"></option>
+  <option value="90"></option>
+  <option value="100"></option>
+</datalist>
 <script> 
  var val = document.getElementById("valR").value;
         document.getElementById("range").innerHTML=val;
